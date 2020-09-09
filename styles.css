@@ -21,6 +21,10 @@
     position: absolute;
 }
 
+.p-relative {
+    position: relative;
+}
+
 .p-fixed {
     position: fixed;
 }
@@ -39,6 +43,10 @@
 
 .jc-center {
     justify-content: center;
+}
+
+.jc-start {
+    justify-content: start;
 }
 
 .fr-wrap {
@@ -65,11 +73,19 @@
     border: 1px solid black;
 }
 
+.ml-10 {
+    margin-left: 10px;
+}
+
+
+
 /***********Navbar**********/
 
 .main-navbar {
     width: 100%;
+    top: 0px;
     background: #FEFEFE;
+    z-index: 2;
 }
 
 .main-navbar-logo {
@@ -78,7 +94,7 @@
 }
 
 .fa-search {
-    margin: 15px 15px;
+    padding: 15px 15px;
     font-size: 20px;
     opacity: .3;
 }
@@ -88,17 +104,53 @@
 }
 
 .fa-bars {
-    margin: 12.5px 12.5px;
+    padding: 12.5px 12.5px;
     font-size: 25px;
     color: #FF7259;
 }
 
+/***********First section**********/
 
-/***********Main imgs**********/
-/*
-.main-imgs-box-imgs {
-    height: 170px;
-    width: 98%;
-    z-index: 3;
+.first-section-main-box {
+    margin-top: 55px;
 }
-*/
+
+.imgs-text-box {
+    margin: 0px 0px 10px 5px;
+    bottom: 0px;
+}
+
+.first-section-img1-box {
+    margin:5px 5px;
+    height: 170px;
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+    background-size: cover;
+}
+
+.imgs-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.imgs-footer-box {
+    font-size: 12px;
+    font-weight: bold;
+    color: #626262;
+}
+
+.first-section-img2-box {
+    margin:5px 5px;
+    height: 170px;
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+    background-size: cover;
+}
+
+.first-section-img3-box {
+    margin:5px 5px;
+    height: 170px;
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-4-796x417.jpg);
+    background-size: cover;
+}
+
+
