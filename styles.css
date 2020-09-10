@@ -45,6 +45,10 @@
     justify-content: center;
 }
 
+.jc-space-evenly {
+    justify-content: space-evenly;
+}
+
 .jc-start {
     justify-content: start;
 }
@@ -117,18 +121,47 @@
 }
 
 .sub-navbar-1 li {
-    padding-left: 15px;
+    padding: 0 15px;
 }
 
-.sub-navbar-2 {
+.sub-navbar-2 ul {
     height: 50px;
     opacity: .3;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .sub-navbar-2 li {
     padding-left: 15px;
+}
+
+.sub-navbar2-img {
+    height: 50px;
+    width: 180px;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-navbar2-clok-box {
+    width: 550px;
+}
+
+.sub-navbar2-clok-box p{
+    font-size: 25px;
+    color: #FF4F2F;
+}
+
+.sub-navbar2-clok-box button{
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    background: #00CCCC;
+    border-radius: 3px;
+}
+
+.sub-navbar2-clok-box button:hover{
+    background: #9900CC;
 }
 
 /***********First section**********/
@@ -196,10 +229,16 @@
 /***********Media Queries**********/
 
 @media (max-width: 767px) { 
+
     .first-section-img1-box {
         width: 100%;
     }
+    
     .sub-navbar-1, .sub-navbar-2 {display: none;}
+
+    .main-navbar {
+        display: flex;
+    }
 
 
 
@@ -220,6 +259,10 @@
     }
 
     #bars-icon, #search-icon {
+        display: none;
+    }
+
+    .sub-navbar2-clok-box {
         display: none;
     }
     
@@ -244,4 +287,16 @@
 
 
     
+}
+
+@media (min-width: 1114px) { 
+
+/***********Navbar**********/
+
+    #bars-icon, #search-icon, #search-icon2, .main-navbar-logo {
+        display: none;
+    }
+
+
+
 }
