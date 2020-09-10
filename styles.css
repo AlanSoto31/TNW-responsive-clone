@@ -5,6 +5,7 @@
     font-family: sans-serif;
     list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /********Global classes*******/
@@ -213,7 +214,94 @@
     margin:0 0 5px 0;
 }
 
+/***********Lastest News section**********/
 
+.latest-news-main-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 98%;
+    grid-gap: 20px;
+}
+
+.latest-news-main-title {
+    margin: 50px 0 20px 0;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.latest-news-main-title a {
+    font-size: 30px;
+    color: #FF4F2F;
+    font-weight: bold;
+}
+
+.latest-news-items-box {
+    width: 100%;
+    display: block;
+}
+
+.latest-news-img {
+    height: 112px;
+    width: 100%;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-6-1-516x270.png);
+    background-size: cover;
+}
+
+.latest-news-title {
+    margin: 15px 0 2px 0;
+}
+
+.latest-news-title a {
+    color: black;
+    font-weight: bold;
+}
+
+.latest-news-footer {
+    color: #CACACA;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.latest-news-new-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.latest-news-new-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.latest-news-new-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.latest-news-new-4 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 180px;
+}
+
+.latest-news-new-5 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.latest-news-new-6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.latest-news-new-7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    height: 180px;
+}
+
+.latest-news-new-8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
 
 
 
@@ -264,6 +352,27 @@
         width: 100%;
     }
 
+    
+    /***********Latest News section**********/ 
+
+    .latest-news-main-box {
+        display: block;
+        width: 93%;
+    }
+
+    .latest-news-img {
+        float: left;
+        width: 75px;
+        height: 75px;
+    }
+
+    .latest-news-title {
+        margin: 0 0 5px 0;
+    }
+
+    .latest-news-text-box {
+        margin: 0 0 0 90px;
+    }
 
 }
 
@@ -305,7 +414,7 @@
         height: 161px;
     }
 
-
+    /***********Latest News section**********/ 
 
     
 }
@@ -333,6 +442,36 @@
         height: 260px;
     }
 
+    /***********Latest News section**********/ 
 
+    .latest-news-main-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 75%;
+    }
 
+    .latest-news-new-4 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    
+    .latest-news-new-5 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: 180px;
+    }
+    
+    .latest-news-new-6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    .latest-news-new-7 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    
+    .latest-news-new-8 {
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
 }
