@@ -82,6 +82,10 @@
     margin-left: 10px;
 }
 
+.m-10-10 {
+    margin-bottom: 10px;
+}
+
 
 
 /***********Navbar**********/
@@ -234,16 +238,54 @@
     font-weight: bold;
 }
 
+.latest-news-main-title i {
+    font-size: 20px;
+    color: #FF4F2F;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
 .latest-news-items-box {
     width: 100%;
     display: block;
 }
 
-.latest-news-img {
+.latest-news-imgs {
     height: 112px;
     width: 100%;
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-6-1-516x270.png);
     background-size: cover;
+}
+
+.latest-news-img-1 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-516x270.jpg);
+}
+
+.latest-news-img-2 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-516x270.jpg);
+}
+
+.latest-news-img-3 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/tiktok-censorship-lgbtq-516x270.jpg);
+}
+
+.latest-news-img-4 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Mockuuups-540x270.jpg);
+}
+
+.latest-news-img-5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Netherlands-subsidy-electric-vehicles-car-buying-grant-government-buy-tesla-480x270.png);
+}
+
+.latest-news-img-6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-6-1-516x270.png);
+}
+
+.latest-news-img-7 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-516x270.png);
+}
+
+.latest-news-img-8 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/ireland-5490836_1920-405x270.jpg);
 }
 
 .latest-news-title {
@@ -279,7 +321,6 @@
 .latest-news-new-4 {
     grid-column: 1/2;
     grid-row: 3/4;
-    height: 180px;
 }
 
 .latest-news-new-5 {
@@ -295,7 +336,6 @@
 .latest-news-new-7 {
     grid-column: 1/2;
     grid-row: 4/5;
-    height: 180px;
 }
 
 .latest-news-new-8 {
@@ -360,7 +400,7 @@
         width: 93%;
     }
 
-    .latest-news-img {
+    .latest-news-imgs {
         float: left;
         width: 75px;
         height: 75px;
@@ -426,7 +466,7 @@
 
 @media (min-width: 1114px) { 
 
-/***********Navbar**********/
+    /***********Navbar**********/
 
     #bars-icon, #search-icon, #search-icon2, .main-navbar-logo {
         display: none;
@@ -445,8 +485,22 @@
     /***********Latest News section**********/ 
 
     .latest-news-main-box {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 75%;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 1024px) { 
+
+        /***********Latest News section**********/ 
+
+    .latest-news-main-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .latest-news-new-4 {
@@ -457,7 +511,6 @@
     .latest-news-new-5 {
         grid-column: 1/2;
         grid-row: 3/4;
-        height: 180px;
     }
     
     .latest-news-new-6 {
@@ -474,4 +527,5 @@
         grid-column: 4/5;
         grid-row: 3/4;
     }
+
 }
