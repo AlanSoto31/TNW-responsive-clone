@@ -651,6 +651,16 @@ hr {
 
 @media (max-width: 767px) { 
 
+    /***********Global classes**********/
+
+    .d-block-MQ-767 {
+        display: block;
+    }
+
+    .imgs-size-MQ-767 {
+        height: 170px;
+        width: 100%;
+    }
 
     /***********Navbar**********/
 
@@ -664,31 +674,9 @@ hr {
         display: flex;
     }
 
-    /***********First section**********/  
-
-    .first-section-img1-box {
-        display: block;
-        height: 170px;
-        width: 100%;
-    }
-    
-    .first-section-img2-box {
-        display: block;
-        height: 170px;
-        width: 100%;
-    }
-    
-    .first-section-img3-box {
-        display: block;
-        height: 170px;
-        width: 100%;
-    }
-
-    
     /***********Latest News section**********/ 
 
     .latest-news-main-box {
-        display: block;
         width: 93%;
     }
 
@@ -708,19 +696,13 @@ hr {
 
     /***********Latest Funding section**********/
 
-    
-    .latest-funding-subtitle {
-        display: block;
-    }
+    .latest-funding-main-box {
+        width: 98%;
+    } 
 
     .latest-funding-subtitle li{
         padding: 5px 0;
     }
-
-    .latest-funding-main-box {
-        display: block;
-        width: 98%;
-    } 
 
     .latest-funding-items-box {
         margin: 15px 0;
@@ -732,10 +714,6 @@ hr {
 
     /***********Forth section**********/
 
-    .forth-section-main-box{
-        display: block;
-    }
-
     .forth-section-items-box {
         margin-top: 15px;
     }
@@ -745,20 +723,16 @@ hr {
 
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1023px) { 
 
     /***********First section**********/  
 
     .first-section-img1-box {
         height: 327px;
     }
-    .first-section-img2-box {
+    .first-section-img2-box, .first-section-img3-box {
         height: 161px;
     }
-    .first-section-img3-box {
-        height: 161px;
-    }
-    
     
     /***********Latest Funding section**********/
 
@@ -766,7 +740,7 @@ hr {
         display: none;
     }
     
-
+    
 }
 
 @media (min-width: 1024px) { 
@@ -776,10 +750,7 @@ hr {
     .first-section-img1-box {
         height: 526px;
     }
-    .first-section-img2-box {
-        height: 260px;
-    }
-    .first-section-img3-box {
+    .first-section-img2-box, .first-section-img3-box {
         height: 260px;
     }
 
@@ -872,33 +843,19 @@ hr {
         grid-column: 3/4;
         grid-row: 3/4;
     }
-
-
-
 }
 
 @media (min-width: 1440px) { 
 
-    /***********Latest News section**********/ 
-
-    .latest-news-main-box {
+    .width-per-75 {
         width: 75%;
     }
-
-    
-    /***********Latest Funding section**********/
-    
-    .latest-funding-main-box {
-        width: 75%;   
-    }
-
-    /***********Forth section**********/
-
-    .forth-section-main-box {
-        width: 75%; 
-    }
-
 }
+
+
+
+
+
 
 /****** This media Query is only for nav-bar *********/ 
 
@@ -916,11 +873,7 @@ hr {
             float: left;
         }
     
-        #bars-icon, #search-icon {
-            display: none;
-        }
-    
-        .sub-navbar2-clok-box {
+        #bars-icon, #search-icon, .sub-navbar2-clok-box {
             display: none;
         }
 }
