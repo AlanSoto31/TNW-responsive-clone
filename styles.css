@@ -391,6 +391,8 @@ hr {
 .latest-funding-imgs {
     height: 60px;
     width: 60px;
+    top: 10px;
+    left: 10px;
     background-size: cover;
 }
 
@@ -432,11 +434,15 @@ hr {
     margin-right: 10px;
 }
 
+.latest-funding-text-3-box {
+    background: #FFFAF8;
+}
+
+
+
 
 
 .latest-funding-img-1 {
-    top: 10px;
-    left: 10px;
     background-image: url(	https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1214529756936523776%2FXaYfFa4l.jpg&signature=4a782d074df0a0e711c37a09fb8f682d);
 }
 
@@ -444,6 +450,24 @@ hr {
 
 .latest-funding-new-1 {
     grid-column: 1/2;
+    grid-row: 2/3;
+    height: 288px;
+}
+
+.latest-funding-new-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 288px;
+
+}
+.latest-funding-new-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 288px;
+}
+
+.latest-funding-new-4 {
+    grid-column: 4/5;
     grid-row: 2/3;
     height: 288px;
 }
@@ -516,35 +540,30 @@ hr {
         margin: 0 0 0 90px;
     }
 
+    /***********Latest Funding section**********/
+
+    .latest-funding-main-box {
+        display: block;
+        width: 98%;
+    } 
+
+    .latest-funding-new-4 {
+        display: none;
+    }
+
+
+
+
+
+
 }
 
 
 
 
-@media (min-width: 768px) and (max-width: 1113px) { 
+@media (min-width: 768px) and (max-width: 1023px) { 
 
-/***********Navbar**********/
-
-    .main-navbar {
-        display: block;
-        overflow: auto;
-    }   
-    
-    .main-navbar-logo {
-        height: 80px;
-        float: left;
-    }
-
-    #bars-icon, #search-icon {
-        display: none;
-    }
-
-    .sub-navbar2-clok-box {
-        display: none;
-    }
-    
-
-/***********First section**********/  
+    /***********First section**********/  
 
     .first-section-img1-box {
         height: 327px;
@@ -555,10 +574,15 @@ hr {
     .first-section-img3-box {
         height: 161px;
     }
-
-    /***********Latest News section**********/ 
-
     
+    
+    /***********Latest Funding section**********/
+
+    .latest-funding-new-4 {
+        display: none;
+    }
+    
+
 }
 
 
@@ -566,13 +590,9 @@ hr {
 
 
 
-@media (min-width: 1114px) { 
+@media (min-width: 1023px) { 
 
-    /***********Navbar**********/
-
-    #bars-icon, #search-icon, #search-icon2, .main-navbar-logo {
-        display: none;
-    }
+    /***********First section**********/  
 
     .first-section-img1-box {
         height: 526px;
@@ -585,21 +605,6 @@ hr {
     }
 
     /***********Latest News section**********/ 
-
-    .latest-news-main-box {
-        width: 75%;
-    }
-
-
-}
-
-
-
-
-
-@media (min-width: 1024px) { 
-
-        /***********Latest News section**********/ 
 
     .latest-news-main-box {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -628,6 +633,74 @@ hr {
     .latest-news-new-8 {
         grid-column: 4/5;
         grid-row: 3/4;
+    }
+
+    /***********Latest Funding section**********/
+    
+    .latest-funding-main-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+
+
+}
+
+
+@media (min-width: 1440px) { 
+
+    /***********Latest News section**********/ 
+
+    .latest-news-main-box {
+        width: 75%;
+    }
+
+    
+/***********Latest Funding section**********/
+    
+    .latest-funding-main-box {
+        width: 75%;   
+    }
+
+}
+
+
+
+
+
+
+/****** This media Query is only for nav-bar *********/ 
+
+@media (min-width: 768px) and (max-width: 1114px) { 
+
+    /***********Navbar**********/
+    
+        .main-navbar {
+            display: block;
+            overflow: auto;
+        }   
+        
+        .main-navbar-logo {
+            height: 80px;
+            float: left;
+        }
+    
+        #bars-icon, #search-icon {
+            display: none;
+        }
+    
+        .sub-navbar2-clok-box {
+            display: none;
+        }
+}
+
+
+@media (min-width: 1114px) { 
+
+    /***********Navbar**********/
+
+    #bars-icon, #search-icon, #search-icon2, .main-navbar-logo {
+        display: none;
     }
 
 }
