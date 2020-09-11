@@ -11,8 +11,8 @@
 hr {
     border-style: solid;
     border-width: 0.2px;
-    color: #FF4F2F;
-    opacity: .3;
+    color: black;
+    opacity: .1;
 }
 
 /********Global classes*******/
@@ -41,6 +41,10 @@ hr {
     align-items: center;
 }
 
+.ai-start {
+    align-items: start;
+}
+
 .jc-space-around {
     justify-content: space-around;
 }
@@ -65,10 +69,6 @@ hr {
     flex-wrap: wrap;
 }
 
-.m-auto {
-    margin: auto;
-}
-
 .f-left {
     float: left;
 }
@@ -85,8 +85,26 @@ hr {
     border: 1px solid black;
 }
 
+/******Margins******/
+
+.m-auto {
+    margin: auto;
+}
+
 .ml-10 {
     margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
 }
 
 .mb-10 {
@@ -95,6 +113,34 @@ hr {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.m-10-10 {
+    margin: 10px 0;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+/******Paddings*****/
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+/****** Special configurations ******/
+
+.fc-orange {
+    color: #FF4F2F; 
+}
+
+.fw-bold {
+    font-weight: bold;
 }
 
 .main-title-style {
@@ -110,14 +156,6 @@ hr {
     padding-left: 5px;
 }
 
-.padding-10 {
-    padding: 10px;
-}
-
-.padding-15 {
-    padding: 15px;
-}
-
 .funding-gradient {
     background: rgb(255,68,34);
     background: linear-gradient(180deg, rgba(255,68,34,1) 15%, rgba(255,231,231,1) 15%, rgba(255,233,233,1) 35%, rgba(255,249,247,1) 35%, rgba(255,250,248,1) 100%);}
@@ -125,6 +163,11 @@ hr {
 .latest-funding-text-2-a {
     font-size: 12px;
     color: black;
+}
+
+#ls-enable {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
 }
 
 /***********Navbar**********/
@@ -139,6 +182,7 @@ hr {
 .main-navbar-logo {
     height: 50px;
     width: 106px;
+    object-fit: cover;
 }
 
 .fa-search {
@@ -217,12 +261,12 @@ hr {
 }
 
 .imgs-text-box {
-    margin: 0px 0px 10px 5px;
+    margin: 0px 0px 10px 10px;
     bottom: 0px;
 }
 
 .imgs-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
@@ -238,7 +282,7 @@ hr {
     width: 68%;
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
     background-size: cover;
-    margin: 0 0 5px 5px;
+    /*margin: 0 0 5px 5px;*/
 }
 
 .first-section-img2-box {
@@ -254,7 +298,7 @@ hr {
     width: 31%;
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
     background-size: cover;
-    margin:0 0 5px 0;
+    /*margin:0 0 5px 0;*/
 }
 
 /***********Latest News section**********/
@@ -485,9 +529,74 @@ hr {
     /*height: 288px;*/
 }
 
+/***********Forth section**********/
+
+.forth-section-main-box {
+    width: 98%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.forth-section-imgs {
+    height: 276px;
+    width: 100%;
+    background-size: cover;
+}
+
+.forth-section-imgs-footer {
+    font-size: 12px;
+    color: white;
+}
+
+.fs-middle {
+    background: #FFF4F2;
+    font-size: 14px;
+}
+
+.fs-middle-text-box {
+    width: 65%;
+    margin: 10px 0 0 10px;
+}
+
+.fs-middle-imgs {
+    height: 96px;
+    width: 96px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.fs-links-list {
+    color: black;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.fs-links-list:hover {
+    opacity: 1;
+}
+
+.fs-links-list-box li, hr {
+    margin-top: 10px;
+}
 
 
 
+
+
+
+
+.forth-section-img-1-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+}
+
+.fs-middle-img-1 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/teslaelo.jpg);
+}
+
+.forth-section-new-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
 
 
