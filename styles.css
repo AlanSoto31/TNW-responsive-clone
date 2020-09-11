@@ -534,7 +534,7 @@ hr {
 .forth-section-main-box {
     width: 98%;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 20px;
 }
 
 .forth-section-imgs {
@@ -579,23 +579,66 @@ hr {
     margin-top: 10px;
 }
 
-
-
-
-
-
-
 .forth-section-img-1-box {
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
 }
+
+
 
 .fs-middle-img-1 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/teslaelo.jpg);
 }
 
+
+
 .forth-section-new-1 {
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+.forth-section-new-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.forth-section-new-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 706.2px;
+}
+
+.forth-section-new-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.forth-section-new-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 706.2px;
+}
+
+.forth-section-new-6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.forth-section-new-7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    height: 706.2px;
+}
+
+.forth-section-new-8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.forth-section-new-9 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    height: 706.2px;
+
 }
 
 
@@ -607,6 +650,7 @@ hr {
 /***********Media Queries**********/
 
 @media (max-width: 767px) { 
+
 
     /***********Navbar**********/
 
@@ -686,17 +730,22 @@ hr {
         display: none;
     }
 
+    /***********Forth section**********/
 
+    .forth-section-main-box{
+        display: block;
+    }
+
+    .forth-section-items-box {
+        margin-top: 15px;
+    }
 
 
 
 
 }
 
-
-
-
-@media (min-width: 768px) and (max-width: 1023px) { 
+@media (max-width: 1024px) { 
 
     /***********First section**********/  
 
@@ -720,12 +769,7 @@ hr {
 
 }
 
-
-
-
-
-
-@media (min-width: 1023px) { 
+@media (min-width: 1024px) { 
 
     /***********First section**********/  
 
@@ -784,10 +828,54 @@ hr {
         grid-gap: 20px;
     }
 
+    /***********Forth section**********/
+
+    .forth-section-main-box{
+        width: 98%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;    
+    }
+    
+    .forth-section-new-3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    
+    .forth-section-new-4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 706.2px;
+    }
+    
+    .forth-section-new-5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .forth-section-new-6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    
+    .forth-section-new-7 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: 706.2px;
+    }
+    
+    .forth-section-new-8 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    .forth-section-new-9 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
 
 
 }
-
 
 @media (min-width: 1440px) { 
 
@@ -798,18 +886,19 @@ hr {
     }
 
     
-/***********Latest Funding section**********/
+    /***********Latest Funding section**********/
     
     .latest-funding-main-box {
         width: 75%;   
     }
 
+    /***********Forth section**********/
+
+    .forth-section-main-box {
+        width: 75%; 
+    }
+
 }
-
-
-
-
-
 
 /****** This media Query is only for nav-bar *********/ 
 
@@ -835,7 +924,6 @@ hr {
             display: none;
         }
 }
-
 
 @media (min-width: 1114px) { 
 
