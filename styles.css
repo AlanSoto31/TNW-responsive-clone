@@ -543,6 +543,10 @@ hr {
     background-size: cover;
 }
 
+.imgs-title:hover {
+    text-decoration: underline;
+}
+
 .forth-section-imgs-footer {
     font-size: 12px;
     color: white;
@@ -556,6 +560,10 @@ hr {
 .fs-middle-text-box {
     width: 65%;
     margin: 10px 0 0 10px;
+}
+
+.fs-middle-text-box a:hover {
+    text-decoration: underline;
 }
 
 .fs-middle-imgs {
@@ -579,15 +587,92 @@ hr {
     margin-top: 10px;
 }
 
+
+
+
+
+
 .forth-section-img-1-box {
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
 }
+
+.forth-section-img-2-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Spotify-368x276.png);
+}
+
+.forth-section-img-3-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_44643ea8-368x276.png);
+}
+
+.forth-section-img-4-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-368x276.jpg);
+}
+
+.forth-section-img-5-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/call-of-duty-warzone-vehicles-bug-368x276.jpg);
+}
+
+.forth-section-img-6-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/economy-money-fintech-368x276.png);
+}
+
+.forth-section-img-7-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/oswald-rabbit-disney-gq-368x276.png);
+}
+
+.forth-section-img-8-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
+}
+
+.forth-section-img-9-box {
+    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://i.ytimg.com/vi/ZUwRnBhtevE/hqdefault.jpg);
+}
+
+
+
+
+
 
 
 
 .fs-middle-img-1 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/teslaelo.jpg);
 }
+
+.fs-middle-img-2 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Facebook-instagram.jpg);
+}
+
+.fs-middle-img-3 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/google-pixel-swollen-battery-796x417.jpg   );
+}
+
+.fs-middle-img-4 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed.png);
+}
+
+.fs-middle-img-5 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/winamp-skin-museum-music.png);
+}
+
+.fs-middle-img-6 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1.jpg);
+}
+
+.fs-middle-img-7 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/hr-remote-work-trouble-intranet-gq-516x270.png);
+}
+
+.fs-middle-img-8 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Shift-launch-cars-evs-future-polestar-electric-cars-driving-mobility.png);
+}
+
+.fs-middle-img-9 {
+    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates.jpg);
+}
+
+
+
 
 
 
@@ -604,7 +689,6 @@ hr {
 .forth-section-new-3 {
     grid-column: 1/2;
     grid-row: 2/3;
-    height: 706.2px;
 }
 
 .forth-section-new-4 {
@@ -626,7 +710,6 @@ hr {
 .forth-section-new-7 {
     grid-column: 1/2;
     grid-row: 4/5;
-    height: 706.2px;
 }
 
 .forth-section-new-8 {
@@ -637,7 +720,6 @@ hr {
 .forth-section-new-9 {
     grid-column: 1/2;
     grid-row: 5/6;
-    height: 706.2px;
 
 }
 
@@ -815,7 +897,6 @@ hr {
     .forth-section-new-4 {
         grid-column: 1/2;
         grid-row: 2/3;
-        height: 706.2px;
     }
     
     .forth-section-new-5 {
@@ -831,7 +912,6 @@ hr {
     .forth-section-new-7 {
         grid-column: 1/2;
         grid-row: 3/4;
-        height: 706.2px;
     }
     
     .forth-section-new-8 {
