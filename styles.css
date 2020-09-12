@@ -847,7 +847,9 @@ hr {
         width: 100%;
     }
     
-    .sub-navbar-1, .sub-navbar-2 {display: none;}
+    .sub-navbar-1, .sub-navbar-2, .ld-img-triangulo, .ld-img-discount {
+        display: none;
+    }
 
     .main-navbar {
         display: flex;
@@ -855,11 +857,11 @@ hr {
 
     /***********Latest News section**********/ 
 
-    .latest-news-main-box {
+    .latest-news-main-box, .latest-deals-main-box {
         width: 93%;
     }
 
-    .latest-news-imgs {
+    .latest-news-imgs, .latest-deals-imgs {
         float: left;
         width: 75px;
         height: 75px;
@@ -900,6 +902,13 @@ hr {
 
 
 
+
+
+
+
+
+
+
 }
 
 @media (max-width: 1023px) { 
@@ -935,31 +944,35 @@ hr {
 
     /***********Latest News section**********/ 
 
-    .latest-news-main-box {
+    .ld-main-title-box {
+        grid-column: 1/5;
+    }
+
+    .latest-news-main-box, .latest-deals-main-box {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .latest-news-new-4 {
+    .latest-news-new-4, .latest-deals-new-4 {
         grid-column: 4/5;
         grid-row: 2/3;
     }
     
-    .latest-news-new-5 {
+    .latest-news-new-5, .latest-deals-new-5 {
         grid-column: 1/2;
         grid-row: 3/4;
     }
     
-    .latest-news-new-6 {
+    .latest-news-new-6, .latest-deals-new-6 {
         grid-column: 2/3;
         grid-row: 3/4;
     }
     
-    .latest-news-new-7 {
+    .latest-news-new-7, .latest-deals-new-7 {
         grid-column: 3/4;
         grid-row: 3/4;
     }
     
-    .latest-news-new-8 {
+    .latest-news-new-8, .latest-deals-new-8 {
         grid-column: 4/5;
         grid-row: 3/4;
     }
