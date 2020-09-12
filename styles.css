@@ -127,6 +127,10 @@ hr {
     margin-top: 70px;
 }
 
+.mt50 {
+    margin-top: 50px;
+}
+
 /******Paddings*****/
 
 .padding-10 {
@@ -153,19 +157,16 @@ hr {
     font-weight: bold;
 }
 
-.main-title-icon-style {
-    font-size: 20px;
-    color: #FF4F2F;
-    font-weight: bold;
-    padding-left: 5px;
-}
-
 .funding-gradient {
     background: rgb(255,68,34);
     background: linear-gradient(180deg, rgba(255,68,34,1) 15%, rgba(255,231,231,1) 15%, rgba(255,233,233,1) 35%, rgba(255,249,247,1) 35%, rgba(255,250,248,1) 100%);}
 
 .latest-funding-text-2-a {
     font-size: 12px;
+    color: black;
+}
+
+.color-change:hover {
     color: black;
 }
 
@@ -203,23 +204,33 @@ hr {
 .sub-navbar-1 {
     height: 30px;
     font-size: 12px;
-    color: white;
     background: black;
 }
 
-.sub-navbar-1 li {
+.sub-navbar-1 a {
+    color: white;
+    opacity: .5;
     padding: 0 15px;
 }
 
+.sub-navbar-1 a:hover {
+    opacity: 1;
+}
+
 .sub-navbar-2 ul {
+    font-size: 14px;
     height: 50px;
-    opacity: .3;
-    font-size: 16px;
     font-weight: bold;
 }
 
-.sub-navbar-2 li {
+.sub-navbar-2 a {
+    color: black;
+    opacity: .4;
     padding-left: 15px;
+}
+
+.sub-navbar-2 a:hover {
+    opacity: .7;
 }
 
 .sub-navbar2-img {
@@ -308,10 +319,19 @@ hr {
     grid-gap: 20px;
 }
 
-.latest-news-main-title {
-    margin: 50px 0 20px 0;
+.main-title-box {
     grid-column: 1/4;
     grid-row: 1/2;
+}
+
+.main-title a:hover {
+    color: black;
+}
+
+.fa-chevron-right {
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 5px;
 }
 
 .latest-news-items-box {
@@ -420,10 +440,9 @@ hr {
     grid-gap: 20px;
 }
 
-.latest-funding-main-title {
+.lf-main-title {
     grid-column: 1/4;
     grid-row: 1/2;
-    margin: 50px 0 10px 0;
 }
 
 .latest-funding-items-box {
@@ -713,7 +732,7 @@ hr {
     grid-gap: 20px;
 }
 
-.latest-deals-main-title {
+.ld-main-title-box {
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -947,7 +966,7 @@ hr {
 
     /***********Latest Funding section**********/
 
-    .latest-funding-main-title {
+    .lf-main-title {
         display: flex;
         grid-column: 1/5;
         justify-content: space-between;
