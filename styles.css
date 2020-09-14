@@ -754,8 +754,8 @@ hr {
 }
 
 .ld-img-discount {
-    top: 25px;
-    left: 6px;
+    top: 26px;
+    left: 4px;
     font-size: 14px;
     font-weight: bold;
     transform: rotate(45deg);
@@ -775,9 +775,44 @@ hr {
     text-decoration: underline;
 }
 
+
+
+
+
 .latest-deals-img-1 {
     background-image: url(https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg);
 }
+
+.latest-deals-img-2 {
+    background-image: url(	https://cdnp1.stackassets.com/642c455bc74de59a3c3bbb26262a6b85c2109662/store/216a99ecba53036f93d5db0f7da7096c275bc4f35f9c88a6ebb814967af7/sale_31148_primary_image.jpg);
+}
+
+.latest-deals-img-3 {
+    background-image: url(	https://cdnp2.stackassets.com/92bcda7b60a533e70b2fa0397cbcadc07252146a/store/bb31e60362b9c63654e22bfb415c89089ee735194d2a0b203557504eca16/sale_39532_primary_image.jpg);
+}
+.latest-deals-img-4 {
+    background-image: url(https://cdnp3.stackassets.com/50020c15b0c3eb2d56ac18e34ee8c4ee776b24ca/store/3bf607f7b3512d73c02884e4c700e575b778fe02c64d82119a8f88edd8af/sale_40133_primary_image.jpg);
+}
+
+.latest-deals-img-5 {
+    background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
+}
+
+.latest-deals-img-6 {
+    background-image: url(https://cdnp2.stackassets.com/2045939235a196ee95114c69bb7b5d80019c25ec/store/cf39d2170bf1ef87df6859b97ced1abeff5b7ba16de0c03f57be7492b53d/sale_39531_primary_image.jpg);
+}
+
+.latest-deals-img-7 {
+    background-image: url(	https://cdnp2.stackassets.com/e44f78edfcb13200279a2501b09d16c02b10f739/store/c200444f3c9de39ea53f56d44028fbc6277a145194261a66d8a2ed1b0a56/product_27619_product_shots1.jpg);
+}
+
+.latest-deals-img-8 {
+    background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
+}
+
+
+
+
 
 .latest-deals-new-1 {
     grid-column: 1/2;
@@ -797,7 +832,7 @@ hr {
 .latest-deals-new-4 {
     grid-column: 1/2;
     grid-row: 3/4;
-    height: 234.2px;
+    /*height: 234.2px;*/
 }
 
 .latest-deals-new-5 {
@@ -813,7 +848,7 @@ hr {
 .latest-deals-new-7 {
     grid-column: 1/2;
     grid-row: 4/5;
-    height: 234.2px;
+    /*height: 234.2px;*/
 
 }
 
@@ -839,6 +874,10 @@ hr {
     .imgs-size-MQ-767 {
         height: 170px;
         width: 100%;
+    }
+
+    .mt-15-MQ-767 {
+        margin-top: 15px;
     }
 
     /***********Navbar**********/
