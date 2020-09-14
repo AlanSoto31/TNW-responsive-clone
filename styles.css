@@ -1,1185 +1,1188 @@
-*{ 
-    margin: 0px;
-    padding: 0px;
-    border: 0;
-    font-family: sans-serif;
-    list-style: none;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 hr {
-    border-style: solid;
-    border-width: 0.2px;
-    color: black;
-    opacity: .1;
+  border-style: solid;
+  border-width: 0.2px;
+  color: black;
+  opacity: 0.1;
 }
 
-/********Global classes*******/
+/********  Global classes  *******/
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .d-grid {
-    display: grid;
+  display: grid;
 }
 
 .p-absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .p-relative {
-    position: relative;
+  position: relative;
 }
 
 .p-fixed {
-    position: fixed;
+  position: fixed;
 }
 
 .ai-center {
-    align-items: center;
+  align-items: center;
 }
 
 .ai-start {
-    align-items: start;
+  align-items: start;
 }
 
 .jc-space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .jc-space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .jc-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .jc-space-evenly {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .jc-start {
-    justify-content: start;
+  justify-content: start;
 }
 
 .fr-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .f-left {
-    float: left;
+  float: left;
 }
 
 .f-right {
-    float: right;
+  float: right;
 }
 
 .of-auto {
-    overflow: auto;
+  overflow: auto;
 }
 
 .b-solid {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .td-line-tr {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-/******Margins******/
+/******  Margins  ******/
 
 .m-auto {
-    margin: auto;
+  margin: auto;
 }
 
 .ml-10 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .mr-10 {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .mb-5 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .mt-5 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .mb-10 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .mb-20 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .mb-30 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .m-10-10 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .mt-70 {
-    margin-top: 70px;
-}
-
-.mt-150 {
-    margin-top: 150px;
+  margin-top: 70px;
 }
 
 .mt-30 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-/******Paddings*****/
+/******  Paddings  *****/
 
 .padding-10 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .padding-15 {
-    padding: 15px;
+  padding: 15px;
 }
 
 .pr-10 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .pt-30 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .pb-30 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /****** Special configurations ******/
 
 .fc-orange {
-    color: #FF4F2F; 
+  color: #ff4f2f;
 }
 
 .fw-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main-title-style {
-    font-size: 27px;
-    color: #FF4F2F;
-    font-weight: bold;
+  font-size: 27px;
+  color: #ff4f2f;
+  font-weight: bold;
 }
 
 .funding-gradient {
-    background: rgb(255,68,34);
-    background: linear-gradient(180deg, rgba(255,68,34,1) 15%, rgba(255,231,231,1) 15%, rgba(255,233,233,1) 35%, rgba(255,249,247,1) 35%, rgba(255,250,248,1) 100%);}
+  background: rgb(255, 68, 34);
+  background: linear-gradient(180deg, rgba(255, 68, 34, 1) 15%, rgba(255, 231, 231, 1) 15%, rgba(255, 233, 233, 1) 35%, rgba(255, 249, 247, 1) 35%, rgba(255, 250, 248, 1) 100%);
+}
 
 .latest-funding-text-2-a {
-    font-size: 12px;
-    color: black;
+  font-size: 12px;
+  color: black;
 }
 
 .color-change:hover {
-    color: black;
+  color: black;
 }
 
-/***********Navbar**********/
+/***********  Navbar  **********/
 
 .main-navbar {
-    width: 100%;
-    top: 0px;
-    background: #FEFEFE;
-    z-index: 2;
+  width: 100%;
+  top: 0;
+  background: #fefefe;
+  z-index: 2;
 }
 
 .main-navbar-logo {
-    height: 50px;
-    width: 106px;
-    object-fit: cover;
+  height: 50px;
+  width: 106px;
+  object-fit: cover;
 }
 
 .fa-search {
-    padding: 15px 15px;
-    font-size: 20px;
-    opacity: .3;
+  padding: 15px 15px;
+  font-size: 20px;
+  opacity: 0.3;
 }
 
 .fa-search:hover {
-    opacity: .6;
+  opacity: 0.6;
 }
 
 .fa-bars {
-    padding: 12.5px 12.5px;
-    font-size: 25px;
-    color: #FF7259;
+  padding: 12.5px 12.5px;
+  font-size: 25px;
+  color: #ff7259;
 }
 
 .sub-navbar-1 {
-    height: 30px;
-    font-size: 12px;
-    background: black;
+  height: 30px;
+  font-size: 12px;
+  background: black;
 }
 
 .sub-navbar-1 a {
-    color: white;
-    opacity: .5;
-    padding: 0 15px;
+  color: white;
+  opacity: 0.5;
+  padding: 0 15px;
 }
 
 .sub-navbar-1 a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .sub-navbar-2 ul {
-    font-size: 14px;
-    height: 50px;
-    font-weight: bold;
+  font-size: 14px;
+  height: 50px;
+  font-weight: bold;
 }
 
 .sub-navbar-2 a {
-    color: black;
-    opacity: .4;
-    padding-left: 15px;
+  color: black;
+  opacity: 0.4;
+  padding-left: 15px;
 }
 
 .sub-navbar-2 a:hover {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .sub-navbar2-img {
-    height: 50px;
-    width: 180px;
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg);
-    background-size: cover;
-    background-position: center;
+  height: 50px;
+  width: 180px;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .sub-navbar2-clok-box {
-    width: 550px;
+  width: 550px;
 }
 
-.sub-navbar2-clok-box p{
-    font-size: 25px;
-    color: #FF4F2F;
+.sub-navbar2-clok-box p {
+  font-size: 25px;
+  color: #ff4f2f;
 }
 
-.sub-navbar2-clok-box button{
-    color: white;
-    font-weight: bold;
-    padding: 8px 15px;
-    background: #00CCCC;
-    border-radius: 3px;
+.sub-navbar2-clok-box button {
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  background: #0cc;
+  border-radius: 3px;
 }
 
-.sub-navbar2-clok-box button:hover{
-    background: #9900CC;
+.sub-navbar2-clok-box button:hover {
+  background: #90c;
 }
 
-/***********First section**********/
+/***********  First section  **********/
 
 .first-section-main-box {
-    max-width: 100%;
-    margin-top: 80px;
-    padding: 5px 5px 5px 5px;
+  max-width: 100%;
+  margin-top: 55px;
+  padding: 5px 5px 5px 5px;
 }
 
 .imgs-text-box {
-    margin: 0px 0px 10px 10px;
-    bottom: 0px;
+  margin: 0 0 10px 10px;
+  bottom: 0;
 }
 
 .imgs-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 .imgs-footer-box {
-    font-size: 12px;
-    font-weight: bold;
-    color: #626262;
+  font-size: 12px;
+  font-weight: bold;
+  color: #626262;
 }
 
 .first-section-img1-box {
-    height: 334px;
-    width: 68%;
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
-    background-size: cover;
-    margin:0 0 5px 0;
+  height: 334px;
+  width: 68%;
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+  background-size: cover;
 }
 
 .first-section-img2-box {
-    height: 167px;
-    width: 31%;
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
-    background-size: cover;
-    margin:0 0 5px 0;
+  height: 167px;
+  width: 31%;
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+  background-size: cover;
+  margin: 0 0 5px 0;
 }
 
 .first-section-img3-box {
-    height: 167px;
-    width: 31%;
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
-    background-size: cover;
+  height: 167px;
+  width: 31%;
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
+  background-size: cover;
 }
 
-/***********Latest News section**********/
+/***********  Latest News section  **********/
 
 .latest-news-main-box {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 98%;
-    grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 98%;
+  grid-gap: 20px;
 }
 
 .main-title-box {
-    grid-column: 1/4;
-    grid-row: 1/2;
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .main-title a:hover {
-    color: black;
+  color: black;
 }
 
 .fa-chevron-right {
-        font-size: 20px;
-        font-weight: bold;
-        padding-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
 }
 
 .latest-news-items-box {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .latest-news-imgs {
-    height: 112px;
-    width: 100%;
-    background-size: cover;
+  height: 112px;
+  width: 100%;
+  background-size: cover;
 }
 
 .latest-news-img-1 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-516x270.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-516x270.jpg);
 }
 
 .latest-news-img-2 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-516x270.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-516x270.jpg);
 }
 
 .latest-news-img-3 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/tiktok-censorship-lgbtq-516x270.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/tiktok-censorship-lgbtq-516x270.jpg);
 }
 
 .latest-news-img-4 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Mockuuups-540x270.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Mockuuups-540x270.jpg);
 }
 
 .latest-news-img-5 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Netherlands-subsidy-electric-vehicles-car-buying-grant-government-buy-tesla-480x270.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Netherlands-subsidy-electric-vehicles-car-buying-grant-government-buy-tesla-480x270.png);
 }
 
 .latest-news-img-6 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-6-1-516x270.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-6-1-516x270.png);
 }
 
 .latest-news-img-7 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-516x270.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-516x270.png);
 }
 
 .latest-news-img-8 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/ireland-5490836_1920-405x270.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/ireland-5490836_1920-405x270.jpg);
 }
 
 .latest-news-title {
-    margin: 15px 0 2px 0;
+  margin: 15px 0 2px 0;
 }
 
 .latest-news-title a {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .latest-news-footer {
-    color: #CACACA;
-    font-size: 12px;
-    font-weight: bold;
+  color: #cacaca;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .latest-news-new-1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 .latest-news-new-2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .latest-news-new-3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
 
 .latest-news-new-4 {
-    grid-column: 1/2;
-    grid-row: 3/4;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
 .latest-news-new-5 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .latest-news-new-6 {
-    grid-column: 3/4;
-    grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 
 .latest-news-new-7 {
-    grid-column: 1/2;
-    grid-row: 4/5;
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 
 .latest-news-new-8 {
-    grid-column: 2/3;
-    grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
-/***********Latest Funding section**********/
+/***********  Latest Funding section  **********/
 
 .latest-funding-main-box {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 98%;
-    grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 98%;
+  grid-gap: 20px;
 }
 
 .lf-main-title {
-    grid-column: 1/4;
-    grid-row: 1/2;
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .latest-funding-items-box {
-    height: 100%;
-    background: #FFFAF8;
+  height: 100%;
+  background: #fffaf8;
 }
 
-.latest-funding-subtitle a{
-    font-size: 14px;
-    font-weight: bold;
-    color: #FF4F2F;
-    margin-right: 30px;
-    margin-top: 20px;
+.latest-funding-subtitle a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4f2f;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .latest-funding-subtitle {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .latest-funding-imgs {
-    height: 60px;
-    width: 60px;
-    top: 10px;
-    left: 10px;
-    background-size: cover;
+  height: 60px;
+  width: 60px;
+  top: 10px;
+  left: 10px;
+  background-size: cover;
 }
 
 .latest-funding-title {
-    background: #FF4422;
-    padding: 10px 0 10px 80px;
+  background: #f42;
+  padding: 10px 0 10px 80px;
 }
 
 .latest-funding-title p {
-    font-size: 20px;
-    color: white;
-    font-weight: bold;  
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 .latest-funding-text-1-box {
-    background: #FFEBE7;
-    padding: 10px 0 10px 80px;
+  background: #ffebe7;
+  padding: 10px 0 10px 80px;
 }
 
 .latest-funding-title2 {
-    font-size: 18px;
-    font-weight: bold;  
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .latest-funding-footer {
-    color: #CACACA;
-    font-size: 12px;
-    margin-top: 5px;
+  color: #cacaca;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .latest-funding-text-2-box {
-    padding: 20px 10px;
-    border-bottom:1px solid #FF4422;
+  padding: 20px 10px;
+  border-bottom: 1px solid #f42;
 }
 
 .latest-funding-text-2-box i {
-    font-size: 16px;
-    margin-right: 10px;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 .latest-funding-img-1 {
-    background-image: url(	https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1214529756936523776%2FXaYfFa4l.jpg&signature=4a782d074df0a0e711c37a09fb8f682d );
+  background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1214529756936523776%2FXaYfFa4l.jpg&signature=4a782d074df0a0e711c37a09fb8f682d);
 }
 
 .latest-funding-img-2 {
-    background-image: url(	https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1220347541247557636%2FYoajaztk.jpg&signature=d9a0cbc78051c3bfc56c3e60882b7adc );
+  background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1220347541247557636%2FYoajaztk.jpg&signature=d9a0cbc78051c3bfc56c3e60882b7adc);
 }
 
 .latest-funding-img-3 {
-    background-image: url(	https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1106586464467537921%2F271IgJU2.png&signature=8eb14ae4cae0b4ac837c4b8db9fcec79 );
+  background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1106586464467537921%2F271IgJU2.png&signature=8eb14ae4cae0b4ac837c4b8db9fcec79);
 }
 
 .latest-funding-img-4 {
-    background-image: url(	https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F270933556%2Fkluetwitter.png&signature=d44858f132610aaf62bd60e007bc14a4	);
+  background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F270933556%2Fkluetwitter.png&signature=d44858f132610aaf62bd60e007bc14a4);
 }
 
 .latest-funding-new-1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    /*height: 288px;*/
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+  /* height: 288px; */
 }
 
 .latest-funding-new-2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    /*height: 288px;*/
+  grid-column: 2/3;
+  grid-row: 2/3;
 
+  /* height: 288px; */
 }
+
 .latest-funding-new-3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    /*height: 288px;*/
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+  /* height: 288px; */
 }
 
 .latest-funding-new-4 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    /*height: 288px;*/
+  grid-column: 4/5;
+  grid-row: 2/3;
+
+  /* height: 288px; */
 }
 
-/***********Forth section**********/
+/***********  Forth section  **********/
 
 .forth-section-main-box {
-    width: 98%;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  width: 98%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .forth-section-imgs {
-    height: 276px;
-    width: 100%;
-    background-size: cover;
+  height: 276px;
+  width: 100%;
+  background-size: cover;
 }
 
 .imgs-title:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .forth-section-imgs-footer {
-    font-size: 12px;
-    color: white;
+  font-size: 12px;
+  color: white;
 }
 
 .fs-middle {
-    background: #FFF4F2;
-    font-size: 14px;
+  background: #fff4f2;
+  font-size: 14px;
 }
 
 .fs-middle-text-box {
-    width: 65%;
-    margin: 10px 0 0 10px;
+  width: 65%;
+  margin: 10px 0 0 10px;
 }
 
 .fs-middle-text-box a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .fs-middle-imgs {
-    height: 96px;
-    width: 96px;
-    background-size: cover;
-    background-position: center center;
+  height: 96px;
+  width: 96px;
+  background-size: cover;
+  background-position: center center;
 }
 
 .fs-links-list {
-    color: black;
-    opacity: .6;
-    font-size: 14px;
+  color: black;
+  opacity: 0.6;
+  font-size: 14px;
 }
 
 .fs-links-list:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-.fs-links-list-box li, hr {
-    margin-top: 10px;
+.fs-links-list-box li,
+hr {
+  margin-top: 10px;
 }
 
 .forth-section-img-1-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
 }
 
 .forth-section-img-2-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Spotify-368x276.png);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Spotify-368x276.png);
 }
 
 .forth-section-img-3-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_44643ea8-368x276.png);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_44643ea8-368x276.png);
 }
 
 .forth-section-img-4-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-368x276.jpg);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-368x276.jpg);
 }
 
 .forth-section-img-5-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/call-of-duty-warzone-vehicles-bug-368x276.jpg);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/call-of-duty-warzone-vehicles-bug-368x276.jpg);
 }
 
 .forth-section-img-6-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/economy-money-fintech-368x276.png);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/economy-money-fintech-368x276.png);
 }
 
 .forth-section-img-7-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/oswald-rabbit-disney-gq-368x276.png);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/oswald-rabbit-disney-gq-368x276.png);
 }
 
 .forth-section-img-8-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
 }
 
 .forth-section-img-9-box {
-    background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(	https://i.ytimg.com/vi/ZUwRnBhtevE/hqdefault.jpg);
+  background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://i.ytimg.com/vi/ZUwRnBhtevE/hqdefault.jpg);
 }
 
 .fs-middle-img-1 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/teslaelo.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/teslaelo.jpg);
 }
 
 .fs-middle-img-2 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Facebook-instagram.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Facebook-instagram.jpg);
 }
 
 .fs-middle-img-3 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/google-pixel-swollen-battery-796x417.jpg   );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/google-pixel-swollen-battery-796x417.jpg);
 }
 
 .fs-middle-img-4 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed.png);
 }
 
 .fs-middle-img-5 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/winamp-skin-museum-music.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/winamp-skin-museum-music.png);
 }
 
 .fs-middle-img-6 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1.jpg);
 }
 
 .fs-middle-img-7 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/hr-remote-work-trouble-intranet-gq-516x270.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/hr-remote-work-trouble-intranet-gq-516x270.png);
 }
 
 .fs-middle-img-8 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Shift-launch-cars-evs-future-polestar-electric-cars-driving-mobility.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Shift-launch-cars-evs-future-polestar-electric-cars-driving-mobility.png);
 }
 
 .fs-middle-img-9 {
-    background-image: url(	https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/stonksgates.jpg);
 }
 
 .forth-section-new-1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .forth-section-new-2 {
-    grid-column: 2/3;
-    grid-row: 1/2;
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 
 .forth-section-new-3 {
-    grid-column: 1/2;
-    grid-row: 2/3;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 .forth-section-new-4 {
-    grid-column: 2/3;
-    grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .forth-section-new-5 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    height: 706.2px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  height: 706.2px;
 }
 
 .forth-section-new-6 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .forth-section-new-7 {
-    grid-column: 1/2;
-    grid-row: 4/5;
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 
 .forth-section-new-8 {
-    grid-column: 2/3;
-    grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .forth-section-new-9 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-
+  grid-column: 1/2;
+  grid-row: 5/6;
 }
 
-/***********Latest Deals section**********/
+/***********  Latest Deals section  **********/
 
 .latest-deals-main-box {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 98%;
-    grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 98%;
+  grid-gap: 20px;
 }
 
 .ld-main-title-box {
-    grid-column: 1/4;
-    grid-row: 1/2;
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .latest-deals-imgs {
-    height: 167px;
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
+  height: 167px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .ld-img-triangulo {
-    height: 80px;
-    width: 80px;
-    top: 0;
-    right: 0;
-    background-size: cover;
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  height: 80px;
+  width: 80px;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
 }
 
 .ld-img-discount {
-    top: 26px;
-    left: 4px;
-    font-size: 14px;
-    font-weight: bold;
-    transform: rotate(45deg);
-    color: black;
+  top: 26px;
+  left: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(45deg);
+  color: black;
 }
 
 .ld-footer1 {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .ld-footer2 {
-    opacity: .8;
+  opacity: 0.8;
 }
 
-.latest-news-title a:hover{
-    color: #FF4422;
-    text-decoration: underline;
+.latest-news-title a:hover {
+  color: #f42;
+  text-decoration: underline;
 }
 
 .latest-deals-img-1 {
-    background-image: url(https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg);
+  background-image: url(https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg);
 }
 
 .latest-deals-img-2 {
-    background-image: url(	https://cdnp1.stackassets.com/642c455bc74de59a3c3bbb26262a6b85c2109662/store/216a99ecba53036f93d5db0f7da7096c275bc4f35f9c88a6ebb814967af7/sale_31148_primary_image.jpg);
+  background-image: url(https://cdnp1.stackassets.com/642c455bc74de59a3c3bbb26262a6b85c2109662/store/216a99ecba53036f93d5db0f7da7096c275bc4f35f9c88a6ebb814967af7/sale_31148_primary_image.jpg);
 }
 
 .latest-deals-img-3 {
-    background-image: url(	https://cdnp2.stackassets.com/92bcda7b60a533e70b2fa0397cbcadc07252146a/store/bb31e60362b9c63654e22bfb415c89089ee735194d2a0b203557504eca16/sale_39532_primary_image.jpg);
+  background-image: url(https://cdnp2.stackassets.com/92bcda7b60a533e70b2fa0397cbcadc07252146a/store/bb31e60362b9c63654e22bfb415c89089ee735194d2a0b203557504eca16/sale_39532_primary_image.jpg);
 }
+
 .latest-deals-img-4 {
-    background-image: url(https://cdnp3.stackassets.com/50020c15b0c3eb2d56ac18e34ee8c4ee776b24ca/store/3bf607f7b3512d73c02884e4c700e575b778fe02c64d82119a8f88edd8af/sale_40133_primary_image.jpg);
+  background-image: url(https://cdnp3.stackassets.com/50020c15b0c3eb2d56ac18e34ee8c4ee776b24ca/store/3bf607f7b3512d73c02884e4c700e575b778fe02c64d82119a8f88edd8af/sale_40133_primary_image.jpg);
 }
 
 .latest-deals-img-5 {
-    background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
+  background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
 }
 
 .latest-deals-img-6 {
-    background-image: url(https://cdnp2.stackassets.com/2045939235a196ee95114c69bb7b5d80019c25ec/store/cf39d2170bf1ef87df6859b97ced1abeff5b7ba16de0c03f57be7492b53d/sale_39531_primary_image.jpg);
+  background-image: url(https://cdnp2.stackassets.com/2045939235a196ee95114c69bb7b5d80019c25ec/store/cf39d2170bf1ef87df6859b97ced1abeff5b7ba16de0c03f57be7492b53d/sale_39531_primary_image.jpg);
 }
 
 .latest-deals-img-7 {
-    background-image: url(	https://cdnp2.stackassets.com/e44f78edfcb13200279a2501b09d16c02b10f739/store/c200444f3c9de39ea53f56d44028fbc6277a145194261a66d8a2ed1b0a56/product_27619_product_shots1.jpg);
+  background-image: url(https://cdnp2.stackassets.com/e44f78edfcb13200279a2501b09d16c02b10f739/store/c200444f3c9de39ea53f56d44028fbc6277a145194261a66d8a2ed1b0a56/product_27619_product_shots1.jpg);
 }
 
 .latest-deals-img-8 {
-    background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
+  background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
 }
 
 .latest-deals-new-1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 .latest-deals-new-2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .latest-deals-new-3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
 
 .latest-deals-new-4 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    /*height: 234.2px;*/
+  grid-column: 1/2;
+  grid-row: 3/4;
+
+  /* height: 234.2px; */
 }
 
 .latest-deals-new-5 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .latest-deals-new-6 {
-    grid-column: 3/4;
-    grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 
 .latest-deals-new-7 {
-    grid-column: 1/2;
-    grid-row: 4/5;
-    /*height: 234.2px;*/
+  grid-column: 1/2;
+  grid-row: 4/5;
 
+  /* height: 234.2px; */
 }
 
 .latest-deals-new-8 {
-    grid-column: 2/3;
-    grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
-/***********Footer Section**********/
+/***********  Footer Section  **********/
 
 .footer-1 {
-    background: #131313;
+  background: #131313;
 }
 
 .footer-1-icons-box li {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .fa-circle-thin {
-    color: gray;
+  color: gray;
 }
 
 .fa-circle {
-    color: rgb(54, 53, 53); 
+  color: rgb(54, 53, 53);
 }
 
-.fa-stack:hover .fa-circle{
-    color: #131313;
+.fa-stack:hover .fa-circle {
+  color: #131313;
 }
 
 .footer-1-links-box a {
-    font-size: 12px;
-    padding-right: 15px;
-    color: white;
-    opacity: .5;
+  font-size: 12px;
+  padding-right: 15px;
+  color: white;
+  opacity: 0.5;
 }
 
 .footer-1-links-box a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .footer-2 {
-    background: black;
-    text-align: center;
+  background: black;
+  text-align: center;
 }
 
 .footer-2-img-1 {
-    height: 10px;
-    width: 50px;
+  height: 10px;
+  width: 50px;
 }
 
 .footer-2-img-2 {
-    height: 30px;
-    width: 70px;
+  height: 30px;
+  width: 70px;
 }
 
 .footer-2 span {
-    font-size: 12px;
-    color: white;
-    opacity: .5;
+  font-size: 12px;
+  color: white;
+  opacity: 0.5;
 }
 
+/***********  Media Queries  **********/
 
+@media (max-width: 767px) {
+  /***********  Global classes  **********/
 
+  .d-block-MQ-767 {
+    display: block;
+  }
 
-/***********Media Queries**********/
+  .imgs-size-MQ-767 {
+    height: 170px;
+    width: 100%;
+  }
 
-@media (max-width: 767px) { 
+  .mt-15-MQ-767 {
+    margin-top: 15px;
+  }
 
-    /***********Global classes**********/
+  /***********  Navbar  **********/
 
-    .d-block-MQ-767 {
-        display: block;
-    }
+  .first-section-img1-box {
+    width: 100%;
+  }
 
-    .imgs-size-MQ-767 {
-        height: 170px;
-        width: 100%;
-    }
+  .sub-navbar-1,
+  .sub-navbar-2,
+  .ld-img-triangulo,
+  .ld-img-discount {
+    display: none;
+  }
 
-    .mt-15-MQ-767 {
-        margin-top: 15px;
-    }
+  .main-navbar {
+    display: flex;
+  }
 
-    /***********Navbar**********/
+  /***********  Latest News section  **********/
 
-    .first-section-img1-box {
-        width: 100%;
-    }
-    
-    .sub-navbar-1, .sub-navbar-2, .ld-img-triangulo, .ld-img-discount {
-        display: none;
-    }
+  .latest-news-main-box,
+  .latest-deals-main-box {
+    width: 93%;
+  }
 
-    .main-navbar {
-        display: flex;
-    }
+  .latest-news-imgs,
+  .latest-deals-imgs {
+    float: left;
+    width: 75px;
+    height: 75px;
+  }
 
-    /***********Latest News section**********/ 
+  .latest-news-title {
+    margin: 0 0 5px 0;
+  }
 
-    .latest-news-main-box, .latest-deals-main-box {
-        width: 93%;
-    }
+  .latest-news-text-box {
+    margin: 0 0 0 90px;
+  }
 
-    .latest-news-imgs, .latest-deals-imgs {
-        float: left;
-        width: 75px;
-        height: 75px;
-    }
+  /***********  Latest Funding section  **********/
 
-    .latest-news-title {
-        margin: 0 0 5px 0;
-    }
+  .latest-funding-main-box {
+    width: 98%;
+  }
 
-    .latest-news-text-box {
-        margin: 0 0 0 90px;
-    }
+  .latest-funding-subtitle li {
+    padding: 5px 0;
+  }
 
-    /***********Latest Funding section**********/
+  .latest-funding-items-box {
+    margin: 15px 0;
+  }
 
-    .latest-funding-main-box {
-        width: 98%;
-    } 
+  .latest-funding-new-4 {
+    display: none;
+  }
 
-    .latest-funding-subtitle li{
-        padding: 5px 0;
-    }
+  /***********  Forth section  **********/
 
-    .latest-funding-items-box {
-        margin: 15px 0;
-    }
+  .forth-section-items-box {
+    margin-top: 15px;
+  }
 
-    .latest-funding-new-4 {
-        display: none;
-    }
-
-    /***********Forth section**********/
-
-    .forth-section-items-box {
-        margin-top: 15px;
-    }
-
-    .footer-1-icons-box li {
-        padding-right: 5px;
-    }
+  .footer-1-icons-box li {
+    padding-right: 5px;
+  }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  /***********  First section  **********/
 
-@media (min-width: 768px) and (max-width: 1023px) { 
+  .first-section-img1-box {
+    height: 327px;
+  }
 
-    /***********First section**********/  
+  .first-section-img2-box,
+  .first-section-img3-box {
+    height: 161px;
+  }
 
-    .first-section-img1-box {
-        height: 327px;
-    }
+  /***********  Latest Funding section  **********/
 
-    .first-section-img2-box, .first-section-img3-box {
-        height: 161px;
-    }
-    
-    /***********Latest Funding section**********/
-
-    .latest-funding-new-4 {
-        display: none;
-    }
-    
-    
+  .latest-funding-new-4 {
+    display: none;
+  }
 }
 
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
+  /***********  First section  **********/
 
-    /***********First section**********/  
+  .first-section-img1-box {
+    height: 526px;
+  }
 
-    .first-section-img1-box {
-        height: 526px;
-    }
-    .first-section-img2-box, .first-section-img3-box {
-        height: 260px;
-    }
+  .first-section-img2-box,
+  .first-section-img3-box {
+    height: 260px;
+  }
 
-    /***********Latest News section**********/ 
+  /***********  Latest News section  **********/
 
-    .ld-main-title-box {
-        grid-column: 1/5;
-    }
+  .ld-main-title-box {
+    grid-column: 1/5;
+  }
 
-    .latest-news-main-box, .latest-deals-main-box {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+  .latest-news-main-box,
+  .latest-deals-main-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 
-    .latest-news-new-4, .latest-deals-new-4 {
-        grid-column: 4/5;
-        grid-row: 2/3;
-    }
-    
-    .latest-news-new-5, .latest-deals-new-5 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
-    .latest-news-new-6, .latest-deals-new-6 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-    
-    .latest-news-new-7, .latest-deals-new-7 {
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-    
-    .latest-news-new-8, .latest-deals-new-8 {
-        grid-column: 4/5;
-        grid-row: 3/4;
-    }
+  .latest-news-new-4,
+  .latest-deals-new-4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
 
-    /***********Latest Funding section**********/
+  .latest-news-new-5,
+  .latest-deals-new-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
 
-    .lf-main-title {
-        display: flex;
-        grid-column: 1/5;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .latest-funding-main-box {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-    }
+  .latest-news-new-6,
+  .latest-deals-new-6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
 
-    /***********Forth section**********/
+  .latest-news-new-7,
+  .latest-deals-new-7 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
 
-    .forth-section-main-box{
-        width: 98%;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;    
-    }
-    
-    .forth-section-new-3 {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    
-    .forth-section-new-4 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    .forth-section-new-5 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    
-    .forth-section-new-6 {
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    
-    .forth-section-new-7 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
-    .forth-section-new-8 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-    
-    .forth-section-new-9 {
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
+  .latest-news-new-8,
+  .latest-deals-new-8 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+
+  /***********  Latest Funding section  **********/
+
+  .lf-main-title {
+    display: flex;
+    grid-column: 1/5;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-funding-main-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  /***********  Forth section  **********/
+
+  .forth-section-main-box {
+    width: 98%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .forth-section-new-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .forth-section-new-4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .forth-section-new-5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .forth-section-new-6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .forth-section-new-7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .forth-section-new-8 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .forth-section-new-9 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
 }
 
-@media (min-width: 1440px) { 
-
-    .width-per-75 {
-        width: 75%;
-    }
+@media (min-width: 1440px) {
+  .width-per-75 {
+    width: 75%;
+  }
 }
 
+/****** This media Query is only for nav-bar *********/
 
+@media (min-width: 768px) and (max-width: 1114px) {
+  /***********  Navbar  **********/
 
+  .main-navbar {
+    display: block;
+    overflow: auto;
+  }
 
+  .main-navbar-logo {
+    height: 80px;
+    float: left;
+  }
 
-
-/****** This media Query is only for nav-bar *********/ 
-
-@media (min-width: 768px) and (max-width: 1114px) { 
-
-    /***********Navbar**********/
-    
-        .main-navbar {
-            display: block;
-            overflow: auto;
-        }   
-        
-        .main-navbar-logo {
-            height: 80px;
-            float: left;
-        }
-    
-        #bars-icon, #search-icon, .sub-navbar2-clok-box {
-            display: none;
-        }
+  #bars-icon,
+  #search-icon,
+  .sub-navbar2-clok-box {
+    display: none;
+  }
 }
 
-@media (min-width: 1114px) { 
+@media (min-width: 1114px) {
+  /***********  Navbar  **********/
 
-    /***********Navbar**********/
-
-    #bars-icon, #search-icon, #search-icon2, .main-navbar-logo {
-        display: none;
-    }
-
+  #bars-icon,
+  #search-icon,
+  #search-icon2,
+  .main-navbar-logo {
+    display: none;
+  }
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
+  /***********  Navbar  **********/
 
-    /***********Navbar**********/
-
-    .sn2-links {
-        display: none;
-    }
+  .sn2-links {
+    display: none;
+  }
+}
