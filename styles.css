@@ -119,6 +119,10 @@ hr {
     margin-bottom: 20px;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .m-10-10 {
     margin: 10px 0;
 }
@@ -127,8 +131,12 @@ hr {
     margin-top: 70px;
 }
 
-.mt50 {
-    margin-top: 50px;
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 /******Paddings*****/
@@ -139,6 +147,18 @@ hr {
 
 .padding-15 {
     padding: 15px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
 }
 
 /****** Special configurations ******/
@@ -266,7 +286,7 @@ hr {
 
 .first-section-main-box {
     max-width: 100%;
-    margin-top: 55px;
+    margin-top: 80px;
     padding: 5px 5px 5px 5px;
 }
 
@@ -292,7 +312,7 @@ hr {
     width: 68%;
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
     background-size: cover;
-    /*margin: 0 0 5px 5px;*/
+    margin:0 0 5px 0;
 }
 
 .first-section-img2-box {
@@ -308,7 +328,6 @@ hr {
     width: 31%;
     background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
     background-size: cover;
-    /*margin:0 0 5px 0;*/
 }
 
 /***********Latest News section**********/
@@ -775,10 +794,6 @@ hr {
     text-decoration: underline;
 }
 
-
-
-
-
 .latest-deals-img-1 {
     background-image: url(https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg);
 }
@@ -809,10 +824,6 @@ hr {
 .latest-deals-img-8 {
     background-image: url(https://cdnp2.stackassets.com/3bb7dce2365c4fe722a3cfeb0844c50d90edd076/store/29e9f59d937f731eb5a3e8f2022130c78cc47c3a6055a4ebec49e639b272/sale_28468_primary_image.jpg);
 }
-
-
-
-
 
 .latest-deals-new-1 {
     grid-column: 1/2;
@@ -857,6 +868,59 @@ hr {
     grid-row: 4/5;
 }
 
+/***********Footer Section**********/
+
+.footer-1 {
+    background: #131313;
+}
+
+.footer-1-icons-box li {
+    padding-right: 10px;
+}
+
+.fa-circle-thin {
+    color: gray;
+}
+
+.fa-circle {
+    color: rgb(54, 53, 53); 
+}
+
+.fa-stack:hover .fa-circle{
+    color: #131313;
+}
+
+.footer-1-links-box a {
+    font-size: 12px;
+    padding-right: 15px;
+    color: white;
+    opacity: .5;
+}
+
+.footer-1-links-box a:hover {
+    opacity: 1;
+}
+
+.footer-2 {
+    background: black;
+    text-align: center;
+}
+
+.footer-2-img-1 {
+    height: 10px;
+    width: 50px;
+}
+
+.footer-2-img-2 {
+    height: 30px;
+    width: 70px;
+}
+
+.footer-2 span {
+    font-size: 12px;
+    color: white;
+    opacity: .5;
+}
 
 
 
@@ -938,25 +1002,20 @@ hr {
         margin-top: 15px;
     }
 
-
-
-
-
-
-
-
-
-
-
+    .footer-1-icons-box li {
+        padding-right: 5px;
+    }
 }
 
-@media (max-width: 1023px) { 
+
+@media (min-width: 768px) and (max-width: 1023px) { 
 
     /***********First section**********/  
 
     .first-section-img1-box {
         height: 327px;
     }
+
     .first-section-img2-box, .first-section-img3-box {
         height: 161px;
     }
@@ -1116,3 +1175,11 @@ hr {
     }
 
 }
+
+@media (max-width: 1200px) { 
+
+    /***********Navbar**********/
+
+    .sn2-links {
+        display: none;
+    }
