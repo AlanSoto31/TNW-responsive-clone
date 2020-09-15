@@ -230,24 +230,16 @@ hr {
   padding: 0 15px;
 }
 
-.sub-navbar-1 a:hover {
-  opacity: 1;
-}
-
-.sub-navbar-2 ul {
-  font-size: 14px;
-  height: 50px;
-  font-weight: bold;
-}
-
 .sub-navbar-2 a {
   color: black;
   opacity: 0.4;
   padding-left: 15px;
 }
 
-.sub-navbar-2 a:hover {
-  opacity: 0.7;
+.sub-navbar-2 ul {
+  font-size: 14px;
+  height: 50px;
+  font-weight: bold;
 }
 
 .sub-navbar2-img {
@@ -337,10 +329,6 @@ hr {
 .main-title-box {
   grid-column: 1/4;
   grid-row: 1/2;
-}
-
-.main-title a:hover {
-  color: black;
 }
 
 .fa-chevron-right {
@@ -599,10 +587,6 @@ hr {
   margin: 10px 0 0 10px;
 }
 
-.fs-middle-text-box a:hover {
-  text-decoration: underline;
-}
-
 .fs-middle-imgs {
   height: 96px;
   width: 96px;
@@ -789,11 +773,6 @@ hr {
   opacity: 0.8;
 }
 
-.latest-news-title a:hover {
-  color: #f42;
-  text-decoration: underline;
-}
-
 .latest-deals-img-1 {
   background-image: url(https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg);
 }
@@ -922,6 +901,27 @@ hr {
   font-size: 12px;
   color: white;
   opacity: 0.5;
+}
+
+.sub-navbar-1 a:hover {
+  opacity: 1;
+}
+
+.sub-navbar-2 a:hover {
+  opacity: 0.7;
+}
+
+.latest-news-title a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.main-title a:hover {
+  color: black;
+}
+
+.fs-middle-text-box a:hover {
+  text-decoration: underline;
 }
 
 /***********  Media Queries  **********/
