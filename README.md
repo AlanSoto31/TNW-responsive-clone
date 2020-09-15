@@ -13,7 +13,9 @@ It is a clone from the home page but including fully responsive design. One very
 
 [Live Demo Link](https://alansoto31.github.io/TNW-responsive-clone/)
 
-Prerequisites - Chrome browser
+## Prerequisites 
+
+- Chrome browser
 
 ## Set up
 
@@ -24,10 +26,19 @@ Prerequisites - Chrome browser
 * Run tests - HTML validator, w3 validation
 * Deployment 
 
-Authors
+## Authors
 
-👤 Alan Soto
+👤 **Alan Soto** 
 
  - Github: AlanSoto31
  - Twitter: @Alan95081574
  - Linkedin: linkedin
+
+ ## Show your support
+
+- Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspired on the TNW web site.
+https://thenextweb.com/
