@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+h1 {
+  display: none;
+}
+
 hr {
   border-style: solid;
   border-width: 0.2px;
