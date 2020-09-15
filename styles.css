@@ -15,8 +15,6 @@ hr {
   opacity: 0.1;
 }
 
-/********  Global classes  *******/
-
 .d-flex {
   display: flex;
 }
@@ -89,8 +87,6 @@ hr {
   text-decoration: line-through;
 }
 
-/******  Margins  ******/
-
 .m-auto {
   margin: auto;
 }
@@ -135,8 +131,6 @@ hr {
   margin-top: 30px;
 }
 
-/******  Paddings  *****/
-
 .padding-10 {
   padding: 10px;
 }
@@ -156,8 +150,6 @@ hr {
 .pb-30 {
   padding-bottom: 30px;
 }
-
-/****** Special configurations ******/
 
 .fc-orange {
   color: #ff4f2f;
@@ -186,8 +178,6 @@ hr {
 .color-change:hover {
   color: black;
 }
-
-/***********  Navbar  **********/
 
 .main-navbar {
   width: 100%;
@@ -271,8 +261,6 @@ hr {
   background: #90c;
 }
 
-/***********  First section  **********/
-
 .first-section-main-box {
   max-width: 100%;
   margin-top: 55px;
@@ -317,8 +305,6 @@ hr {
   background-image: linear-gradient(to bottom, rgba(76, 76, 78, 0.52), rgba(8, 8, 8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
   background-size: cover;
 }
-
-/***********  Latest News section  **********/
 
 .latest-news-main-box {
   grid-template-columns: 1fr 1fr 1fr;
@@ -435,8 +421,6 @@ hr {
   grid-row: 4/5;
 }
 
-/***********  Latest Funding section  **********/
-
 .latest-funding-main-box {
   grid-template-columns: 1fr 1fr 1fr;
   width: 98%;
@@ -529,32 +513,22 @@ hr {
 .latest-funding-new-1 {
   grid-column: 1/2;
   grid-row: 2/3;
-
-  /* height: 288px; */
 }
 
 .latest-funding-new-2 {
   grid-column: 2/3;
   grid-row: 2/3;
-
-  /* height: 288px; */
 }
 
 .latest-funding-new-3 {
   grid-column: 3/4;
   grid-row: 2/3;
-
-  /* height: 288px; */
 }
 
 .latest-funding-new-4 {
   grid-column: 4/5;
   grid-row: 2/3;
-
-  /* height: 288px; */
 }
-
-/***********  Forth section  **********/
 
 .forth-section-main-box {
   width: 98%;
@@ -727,8 +701,6 @@ hr {
   grid-row: 5/6;
 }
 
-/***********  Latest Deals section  **********/
-
 .latest-deals-main-box {
   grid-template-columns: 1fr 1fr 1fr;
   width: 98%;
@@ -823,8 +795,6 @@ hr {
 .latest-deals-new-4 {
   grid-column: 1/2;
   grid-row: 3/4;
-
-  /* height: 234.2px; */
 }
 
 .latest-deals-new-5 {
@@ -840,16 +810,12 @@ hr {
 .latest-deals-new-7 {
   grid-column: 1/2;
   grid-row: 4/5;
-
-  /* height: 234.2px; */
 }
 
 .latest-deals-new-8 {
   grid-column: 2/3;
   grid-row: 4/5;
 }
-
-/***********  Footer Section  **********/
 
 .footer-1 {
   background: #131313;
@@ -924,11 +890,7 @@ hr {
   text-decoration: underline;
 }
 
-/***********  Media Queries  **********/
-
 @media (max-width: 767px) {
-  /***********  Global classes  **********/
-
   .d-block-MQ-767 {
     display: block;
   }
@@ -941,8 +903,6 @@ hr {
   .mt-15-MQ-767 {
     margin-top: 15px;
   }
-
-  /***********  Navbar  **********/
 
   .first-section-img1-box {
     width: 100%;
@@ -958,8 +918,6 @@ hr {
   .main-navbar {
     display: flex;
   }
-
-  /***********  Latest News section  **********/
 
   .latest-news-main-box,
   .latest-deals-main-box {
@@ -981,8 +939,6 @@ hr {
     margin: 0 0 0 90px;
   }
 
-  /***********  Latest Funding section  **********/
-
   .latest-funding-main-box {
     width: 98%;
   }
@@ -999,8 +955,6 @@ hr {
     display: none;
   }
 
-  /***********  Forth section  **********/
-
   .forth-section-items-box {
     margin-top: 15px;
   }
@@ -1011,8 +965,6 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  /***********  First section  **********/
-
   .first-section-img1-box {
     height: 327px;
   }
@@ -1022,16 +974,12 @@ hr {
     height: 161px;
   }
 
-  /***********  Latest Funding section  **********/
-
   .latest-funding-new-4 {
     display: none;
   }
 }
 
 @media (min-width: 1024px) {
-  /***********  First section  **********/
-
   .first-section-img1-box {
     height: 526px;
   }
@@ -1040,8 +988,6 @@ hr {
   .first-section-img3-box {
     height: 260px;
   }
-
-  /***********  Latest News section  **********/
 
   .ld-main-title-box {
     grid-column: 1/5;
@@ -1082,8 +1028,6 @@ hr {
     grid-row: 3/4;
   }
 
-  /***********  Latest Funding section  **********/
-
   .lf-main-title {
     display: flex;
     grid-column: 1/5;
@@ -1095,8 +1039,6 @@ hr {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
   }
-
-  /***********  Forth section  **********/
 
   .forth-section-main-box {
     width: 98%;
@@ -1146,11 +1088,7 @@ hr {
   }
 }
 
-/****** This media Query is only for nav-bar *********/
-
 @media (min-width: 768px) and (max-width: 1114px) {
-  /***********  Navbar  **********/
-
   .main-navbar {
     display: block;
     overflow: auto;
@@ -1169,8 +1107,6 @@ hr {
 }
 
 @media (min-width: 1114px) {
-  /***********  Navbar  **********/
-
   #bars-icon,
   #search-icon,
   #search-icon2,
@@ -1180,8 +1116,6 @@ hr {
 }
 
 @media (max-width: 1200px) {
-  /***********  Navbar  **********/
-
   .sn2-links {
     display: none;
   }
