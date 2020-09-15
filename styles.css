@@ -267,8 +267,8 @@ hr {
 
 .first-section-main-box {
   max-width: 100%;
-  margin-top: 55px;
-  padding: 5px 5px 5px 5px;
+  margin-top: 50px;
+  padding: 0 5px 5px 5px;
 }
 
 .imgs-text-box {
@@ -921,6 +921,7 @@ hr {
 
   .main-navbar {
     display: flex;
+    width: 100%;
   }
 
   .latest-news-main-box,
@@ -1096,6 +1097,7 @@ hr {
   .main-navbar {
     display: block;
     overflow: auto;
+    width: 100%;
   }
 
   .main-navbar-logo {
